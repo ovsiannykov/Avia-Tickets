@@ -1,0 +1,37 @@
+@media (min-width: 768px) {
+  #responsive-navbar-nav {
+    justify-content: flex-end;
+  }
+
+  .header-btn {
+    margin-left: 10px;
+  }
+
+  #send-btn {
+    margin-left: 0;
+    font-weight: 600 !important;
+  }
+}
+
+.header-btn {
+  font-weight: 600 !important;
+}
+
+.header {
+  border-bottom: 1px solid #2578c55d;
+}
+
+@media (max-width: 766px) {
+  .btn-mobile-none {
+    display: none !important;
+  }
+
+  .nav-link {
+    text-align: right;
+    margin-right: 8px;
+  }
+}
+
+.modal-title {
+  text-align: center !important;
+}

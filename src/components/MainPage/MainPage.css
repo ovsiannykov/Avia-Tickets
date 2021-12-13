@@ -1,0 +1,89 @@
+.main-container {
+  margin-top: 25px;
+  min-height: 75vh;
+}
+
+.form-search-tickets {
+  padding: 20px;
+  border: 1px solid #2578c55d;
+  border-radius: 10px;
+}
+
+.option-block {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.ticket {
+  padding: 20px;
+  border: 1px solid #2578c55d;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.company-logo {
+  margin-bottom: 3px;
+}
+
+.hz {
+  text-align: center;
+  border-right: 1px solid #2578c55d;
+}
+
+.transfer {
+  margin-bottom: 10px;
+  color: #2578c5d5;
+  font-weight: 500;
+  text-transform: uppercase;
+  font-size: 12px;
+}
+
+.time {
+  font-size: 60px;
+  font-weight: 500;
+}
+
+.point {
+  font-size: 30px;
+}
+
+.date {
+  font-size: 18px;
+}
+
+.departure-info,
+.arrival-info {
+  text-align: center;
+}
+
+.find-btn {
+  font-weight: 500;
+  text-transform: uppercase;
+  width: 100%;
+}
+
+.your-currency {
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.form-search-tickets {
+  margin-bottom: 20px;
+}
+
+.transers-buttons-block {
+  display: flex;
+}
+
+.transfers-btn {
+  margin: 5px;
+}
+
+@media (max-width: 575px) {
+  .hz {
+    border-right: none;
+    border-top: 1px solid #2578c55d;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+}

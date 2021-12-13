@@ -1,0 +1,15 @@
+@media (max-width: 571px) {
+  .ticket-card {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+}
+
+.tike-tlist--modal--date {
+  font-size: 14px;
+}
+
+.special-label {
+  font-size: 13px;
+  margin: 0;
+}
